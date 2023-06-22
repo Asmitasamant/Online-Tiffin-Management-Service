@@ -1,0 +1,82 @@
++Online Tiffin booking Service
+Document:
+System Requirements Specification Document
+
+Title:
+System Requirement Specification for online tiffin booking system
+
+Team:
+Direct customer
+Indirect customer
+System analyst
+cook 
+
+
+Objective:
+The Online Tiffin Booking System is intended to provide complete solution for the students,professionals and home cooks through a single gateway using interne.it will enable people to find homemade food as per requirment.it also helps women who wants to create their business in catering services but dont have enough resources to manage own hotel.
+
+
+Scope:This System allows students and professionals to get tiffin services easily .customers will be able to review orders history .This system will be able to show live business operation statistics trends through customized dashboard for stakeholders.
+
+Definitions:
+Portal: Peronalized Online Web Application
+MIS: Management Information System
+CRM: Customer Relation Managment
+BI:  Business Intelligence
+
+
+Functional Requirments:
+Any annonymous user will be able to view different meal plans available.user can select its meal plan from categories available.user can also select the cook in that location.Registered user can select daily meal or can accesss monthly tiffin service accordingly.
+
+Registered cooks can promote their meals by giving different combinations and adding different offeres to the catalog maintained by system.Cook will be able to aprove or reject request for adding and removing meals from meal catalog.cook can update,delete or modify meal plans which have been already added to meal calalog as per availability and time.Lisst of meals will be provided based on their category,sale quanty,likes recommnendations.user will be able to add or remove items from cart.
+
+System will maintain cart for each consumer to maintain list of items selected by customer. Consumer will be able view all items from cart. Cart will present meal details, number of items selected by customer with price and total  .Customer will be able process for Order placement. Registered Customer will be able to  place an order with the help of cart maintained by system. Registered Customer will be able to cancel placed order within 10 mins. Registered customer get orders history. Registered customer can get details of order from orderes been placed.
+
+Consumer will be provided options for payment such as through internet banking or UPI or Online payment option. Consumer will asked to submit their payment related information.Consumer will be redirected to payment gateway for secure payment transaction.On successful payment processing using payment gateway system will notify consumer about transaction and order placement status.Customer will able to submit feedback about food.
+Customer will be able to update his/ her personal information. Customer will be to manage his profile maintained by system. Customer will be able change his credentails if required. Customer will be notified about order status, delivery status through SMS, Email communication. Customer will get complete information about his orders, likes, comments, details through a dashboard. Customer will be able to update his payment related information. System will present dashboard for Customers.
+
+Non Functional Requirements:
+Security
+Registered Customer will allowed to place an order. Each stakeholder will be to access system through authentication process. Who are you ? System will provide access to the content , operations using Role based security (Authorization) (Permissions based on Role) Using SSL in all transactions which will be performed stakeholder. It would protect confidential information shared by system to stake holder of Shared by stakeholder to system. System will automatically log of all stakeholder after some time due to inactiveness. System will block operations for inactive stakeholder and would redirect for authentication. System will internally maintain secure communiction channel between Servers ( Web Servers, App Servers, databse Server) Sensitive data will be always encrypted across communcation. User proper firewall to protect servers from out side fishing, velnerable attacks.
+
+Reliability
+The system will backup business data on regular basis and recover in short time duration to keep system operational Continous updates are matained , continous Adminstration is done to keep system operational. During peak hours system will maintain same user experaince by managing load balacning .
+
+Availability
+uptime: 24* 7 available 99.999%
+
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence. A readymade Web Server will be installed to host online shopping portal (Web Site) to management server capabilities. IT operations team will easily monitor and configure System using Adminstrative tools provided by Servers. Separate enviornment will be maintained for system for isolation in production, testing, and development.
+
+Portablility:
+PDA: Portable Device Application System will provide portable User Interface ( HTML, CSS, JS) through users will be able to access online shopping portal. System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+only registered customer will be able to place an order after authentication. Sales team can reject or approve orders, shopper requests based on role provided. BOD team will be able to view daily, weekly, monthly, annual business growth through customized dashboard. Shoppers will be able to see their product sale graph
+
+Durability:
+System will retain customer shopping cart for 15 minutes even though customer loose internet connection and join again. System will maintain wishlist for customer . customer will be able to add products from wishlist and add to shopping cart whenever needed. System will implement backup and recovery for retaining stake holders data, bussiness operation data and business data over time.
+
+Efficiency:
+on Festival season, maximum number of users will place order, view products with same response time. System will be able to manage all transactions with isolation.
+
+Modularity:
+System will designed and developed using reusable, independent or dependent business senarios in the form of modules. These modules will be loosely coupled and highly cohesive. System will contain CRM , Inventory , shopping cart, order processing, payment processing, Delivery module, membership and Roles management modules.
+
+Scalability:
+System will be able to provide consistent user exeprience to stake holder as well as vistors irrespective of load.
+
+Safety:
+Tiffin  Management System will be secure from malicious attack, fishing. online tiffin service functionalilites are protected from outside with prper firewall configuration. Tiffin  Management System portal will be always kept updated with latest anit virus software. Bussiness data will be backed up periodically to ensure safety of data using increamental back up strategy. Role based security will be applied for Application data and operations accessibility.
+
+
+
+
+
+
+
+
+
+
+
+
